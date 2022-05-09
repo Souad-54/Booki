@@ -1,0 +1,527 @@
+
+/* Smartphones*/
+@media only screen and (max-width : 768px)
+{
+	body
+	{
+		font-family: 'raleway', sans-serif;
+		width: 100%;
+		margin: auto;
+	}
+
+	#titre
+	{
+		margin-top: 15%;
+		font-size: 2.5vw;
+	}
+	h2
+	{
+		font-size: 5vw;
+		font-weight: bold;
+		margin-bottom: 15px;
+	}
+
+	h3
+	{
+		font-size: 5vw;
+		font-weight: bold;
+		margin-bottom: 0px;
+	}
+
+	h4
+	{
+		font-size: 5vw;
+		font-weight: bold;
+		display: flex;
+		justify-content: space-between;
+		padding-right: 35px;
+		margin-left: 20px;
+	}
+
+	h5
+	{
+		font-size: 3vw;
+	}
+
+	h6
+	{
+		font-size: 5vw;
+		text-align: left;
+		margin-left: 5px;
+	}
+
+	a
+	{
+		color: black;
+		text-decoration: none;
+	}
+
+	p
+	{
+		font-size: 2.5vw;
+		margin-left: 5px;
+	}
+
+	header
+	{
+		width: 100%;
+	}
+
+	#logo
+	{
+		padding-top: 35px;
+		padding-bottom: 15%;
+		margin: auto;
+		display: flex;
+	}
+
+	#menu
+	{
+		display: flex;
+		justify-content: space-around;
+		margin-top: 30px;
+		margin-bottom: 10%;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.menu_hovering:hover
+	{
+		border-bottom: 4px #0065FC solid ;
+		color: #0065FC;
+		padding-top: 10px;
+		padding-bottom: 40px;
+		padding-left: 70px;
+		padding-right: 70px;
+	}
+
+	.menu_hovering
+	{
+		padding-bottom: 40px;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-bottom: 4px lightgrey solid;
+	}
+
+	form
+	{
+		display: flex;
+		font-family: 'raleway';
+		margin-bottom: 40px;
+		margin-top: 40px;
+		height: 48px;
+		border: 2px solid #F2F2F2;
+		border-radius: 15px;
+		background-color: #f2f2f2;
+		overflow: hidden;
+		width: 280px;
+	}
+
+	#geo
+	{
+		width: 50px;
+		height: 45px;
+		background-color: #f2f2f2;
+		border-top-left-radius: 15px;
+		border-bottom-left-radius: 15px;
+		border: 1px;
+	}
+
+	.fa-location-dot
+	{
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: 17px;
+	}
+
+	#capture
+	{
+		width: 150px;
+		height: 45px;
+		border: 1px solid #F2F2F2;
+		border-right: none;
+		padding-left: 20px;
+		font-weight: bold;
+		font-size: 15px;
+	}
+
+	#launch_search
+	{
+		color: white;
+		background-color: #0065FC;
+		height: 34px;
+		border-radius: 15px;
+		border: 1px;
+		cursor: grab;
+		font-family: 'raleway', sans-serif;
+		font-size: 0px;
+		padding-left: 17px;
+		padding-right: 15px;
+		padding-top: 14px;
+		width: 25px;
+	}
+
+	::placeholder
+	{
+		color: black;
+		font-size: 15px;
+		margin-left: 5px;
+	}
+
+	.fa-magnifying-glass
+	{
+		font-size: 20px;
+	}
+
+	#filters_part
+	{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.criteria
+	{
+		white-space: nowrap;
+		border: 3px solid lightgrey;
+		border-left-width: 1px;
+		border-radius: 45px 45px;
+		background-color: white;
+		margin-bottom: 30px;
+		cursor: grab;
+		font-size: 15px;
+		display: inline-flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		margin-right: 1%;
+	}
+
+	.criteria:active
+	{
+		border: 3px solid #0065fc;
+		background-color: skyblue;
+	}
+
+	.name_filter
+	{
+		margin-top: 20px;
+		padding-right: 15px;
+		font-size: 4vw;
+	}
+
+	span.filter_icon
+	{
+		color: #0065FC;
+		background-color: #DEEBFF;
+		border-radius: 50px;
+		border: 30px #DEEBFF;
+		padding: 20px;
+		margin-right: 5px;
+		font-size: 20px;
+	}
+
+	span#family_icon
+	{
+		color: #0065FC;
+		background-color: #DEEBFF;
+		border: 20px #DEEBFF;
+		font-size: 20px;
+		border-radius: 50px;
+		padding-top: 18px;
+		padding-bottom: 20px;
+		padding-left: 25px;
+		padding-right: 20px;
+		margin-right: 10px;
+	}
+
+	span#info_icon
+	{
+		color: #0065fc;
+		border-radius: 50%;
+		border:  2px solid #deebff;
+		margin-right: 15px;
+		font-size: 20px;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		padding-right: 10px;
+		padding-left: 15px;
+	}
+
+	#info
+	{
+		margin-top: 10px;
+		clear: both;
+		font-size: 4vw;
+		margin-bottom: 20px;
+	}
+
+	.box 
+	{
+		width: 100%;
+		margin: auto;
+	}
+
+	#accomodations_section
+	{
+		padding-bottom: 50px;
+		border-radius: 20px;
+		padding-top: 20px;
+		margin: auto;
+		width: 100%;
+	}
+
+	.accomodations_card
+	{
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		padding-top: 5px;
+		padding-left: 7px;
+		padding-right: 7px;
+		background-color: white;
+		border-radius: 20px;
+		width: 90%;
+		height: 52vw;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+
+	.accomodations_card:hover
+	{
+		color: #0065fc;
+		background-color: #deebff;
+		border: 2px solid #0065FC;
+	}
+
+	.accomodations_card img
+	{
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		width: 100%;
+		height: 30vw;
+		object-fit: cover;
+	}
+
+	.rating 
+	{
+		font-size: 3.5vw;
+		margin-top: 2%;
+	}
+
+	.text_card
+	{
+		padding-left: 20px;
+		font-size: 15px;
+		line-height: 4vw;
+	}
+
+	/* Par défaut, une étoile est en gris,avec un curseur en forme de main. */
+	.fa-star
+	{
+		color: lightgrey;
+		cursor: pointer;
+	}
+
+	/* Si elle porte en plus la classe '.gold', elle sera en bleue. */
+	.fa-star.blue
+	{
+		color: #0065FC;
+		cursor: pointer;
+	}
+
+	#popular
+	{
+		display: flex;
+		flex-direction: column;
+		background-color: #f2f2f2;
+		padding-top: 5px;
+		clear: both;
+		margin-top: 5%;
+		padding-bottom: 5%;
+		margin: auto;
+		width: 100%;
+	}
+
+	.box
+	{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.fa-solid fa-chart-line-up
+	{
+		font-size: 50px;
+		font-weight: bold;
+	}
+
+	.popular_card img
+	{
+		margin-right: 10px;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+		width: 35%;
+		height: 100%;
+		object-fit: cover;
+		float: left;
+	}
+
+	.popular_rating
+	{
+		margin-top: 7%;
+		font-size: 3vw;
+	}
+
+	.popular_card
+	{
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		padding-left: 5px;
+		background-color: white;
+		border-radius: 20px;
+		width: 80%;
+		height: 30vw;
+		margin: auto;
+		margin-bottom: 5%;
+	}
+
+	.popular_caption
+	{
+		font-weight: bold;
+		text-align: justify;
+		margin-top: -3%;
+	}
+
+	.conteneur_activity
+	{
+		display: flex;
+		width: 100%;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		height: 40vw;
+	}
+
+	.conteneur_activity img
+	{
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		width: 100%;
+		height: 80%;
+		object-fit: cover;
+	}
+
+	.activity_caption
+	{
+		margin-left: 25px;
+	}
+
+	.xxl_card
+	{
+		border-radius: 20px;
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		width: 90%;
+		height: 130%;
+		margin-bottom: 10%;
+	}
+
+	.xxl_card img
+	{
+		object-fit: cover;
+	}
+
+	.xl_card
+	{
+		border-radius: 20px;
+		width: 90%;
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		height: 130%;
+		margin-bottom: 10%;
+	}
+
+	.xl_card img
+	{
+		object-fit: cover;
+	}
+
+	.l_card
+	{
+		border-radius: 20px;
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		height: 130%;
+		width: 90%;
+		margin-bottom: 10%;
+	}
+
+	.l_card img
+	{
+		object-fit: cover;
+	}
+
+	.m_card
+	{
+		border-radius: 20px;
+		height: 130%;
+		width: 90%;
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		margin-bottom: 10%;
+	}
+
+	.m_card img
+	{
+		object-fit: cover;
+	}
+
+	.ma_card
+	{
+		border-radius: 20px;
+		height: 130%;
+		width: 90%;
+		box-shadow: 5px 5px 5px 5px lightgrey;
+		margin-bottom: 10%;
+	}
+
+	.ma_card img
+	{
+		object-fit: cover;
+	}
+
+	.conteneur_activity img
+	{
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		width: 100%;
+		height: 80%;
+		object-fit: cover;
+	}
+
+	.activity_caption
+	{
+		margin-left: 5%;
+		margin-top: 3%;
+		font-weight: bold;
+		font-size: 3vw;
+	}
+
+	#activite
+	{
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 3%;
+	}
+
+	#footer
+	{
+		background-color: #f2f2f2;
+		display: block;
+		line-height: 35px;
+		margin-left: 10px;
+		position: relative;
+		margin-top: 350%;
+
+	}
+	
+	.footer_title
+	{
+		font-size: 20px;
+		font-weight: bold;
+		line-height: 60px;
+		padding-top: 30px;
+	}
+}
